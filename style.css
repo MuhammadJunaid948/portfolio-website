@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: rgb(0, 0, 0);
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(font/Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: PP mori;
+    src: url(font/PPMori-Regular.otf);
+}
+
+.main-header {
+    background-color: #0f0D0D;
+}
+
+.cursor {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: #EDBFFF;
+    z-index: 9;
+    mix-blend-mode: difference;
+    transition: left linear 0.1s top linear 0.1s;
+}
+
+.main {
+    background-color: #0f0D0D;
+}
+
+.page1 {
+    height: 100vh;
+    position: relative;
+    padding-top: 100px;
+}
+.header {
+    background-color: #0f0D0D !important;
+}
+
+.main h1 {
+    font-size: 8vw;
+    font-weight: 300;
+    font-family: "PP mori";
+    margin-top: 10vw;
+    margin-left: 6vw;
+    color: white;
+}
+
+.main h2 {
+    font-size: 8vw;
+    font-weight: 300;
+    font-family: "PP mori";
+    margin-right: 3vw;
+    text-align: right;
+    color: white;
+}
+
+.main video {
+    width: 60%;
+    margin-top: 10vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.section-2 {
+    /* margin-top: 7vh; */
+    min-height: 90vh !important;
+    width: 100% !important;
+    border-bottom: 2px solid #7f7f7f;
+    position: relative;
+    padding-top: 100px;
+    /* padding: 5vw !important; */
+}
+
+.section-2-heading {
+    font-size: 70px;
+    color: black;
+    font-weight: 300;
+    font-family: "PP mori";
+}
+
+.section-2-text-box-right button {
+    background: #EDBFFF !important;
+    border: 1px solid #EDBFFF !important;
+    transform: translatex(0%) rotate(0deg);
+}
+.section-2-text-box-right button:hover{
+    mix-blend-mode: difference;
+    transform: translatex(10%) rotate(-2deg);
+}
+
+.section-2-text-box-right button a {
+    text-decoration: none;
+    color: black;
+}
+.section-2-text-box-right{
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(255, 255, 255, 0.11);
+}
+
+.section-2-text-box-left p {
+    font-size: 25px !important;
+    font-family: "PP mori";
+
+}
+
+.section-2-text-box-right p {
+    font-family: "PP mori";
+}
+
+.section-3 {
+    min-height: 150vh !important;
+    /* width: 100% !important; */
+    position: relative;
+    padding-top: 100px;
+    background-color: black !important;
+    /* background-color: salmon; */
+
+}
+.section-3-text-box {
+    position: relative !important;
+    overflow: hidden;
+    text-align: center !important;
+    color: white;
+    transform: translateY(0%) scaleZ(100%);
+}
+
+.section-3-text-box h1 {
+    font-size: 3vw !important;
+    white-space: nowrap;
+    padding-left: 7px !important;
+    text-align: center !important;
+    mix-blend-mode: difference;
+    opacity: 1;
+    
+}
+.section-3-text-box h1:hover{
+    font-size: 4vw !important;
+    background-color: #EDBFFF;
+    color: black;
+   
+    opacity: 1;
+
+
+
+}
+
+
+.section-3-img-1 {
+   
+    opacity: 1;
+    transition: all ease-out 0.5s !important;
+    transform: translatex(0%) rotate(0deg);
+}
+.section-3-img-1:hover{
+    transform: translatex(10%) rotate(-2deg);
+
+
+}
+.section-3-img-2 {
+    
+    opacity: 1;
+    transition: all ease-out 0.5s !important;
+    transform: translatex(0%) rotate(0deg);
+}
+.section-3-img-2:hover{
+    transform: translatex(-10%) rotate(2deg);
+
+
+}
+
+.section-3-img:nth-child(1) {
+    left: 0;
+}
+
+.section-3-img:nth-child(3) {
+    right: 0;
+}
+.section-3:hover {
+    background-color: black !important;
+}
